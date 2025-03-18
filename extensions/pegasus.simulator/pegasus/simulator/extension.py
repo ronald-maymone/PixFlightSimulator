@@ -69,8 +69,8 @@ class Pegasus_SimulatorExtension(omni.ext.IExt):
         if show == True:
 
             # Create a window and its delegate
-            self.ui_delegate = UIDelegate()
-            self.ui_window = WidgetWindow(self.ui_delegate)
+            self.ui_delegate = PixUiDelegate()
+            self.ui_window = PixWidgetWindow(self.ui_delegate)
             self.ui_window.set_visibility_changed_fn(self._visibility_changed_fn)
 
         # If we have a window and we are not supposed to show it, then change its visibility

@@ -1,6 +1,7 @@
 """
 | File: params.py
-| Author: Marcelo Jacinto (marcelo.jacinto@tecnico.ulisboa.pt)
+| Original Author(Pegasus Simulator): Marcelo Jacinto (marcelo.jacinto@tecnico.ulisboa.pt)
+| Pix Flight Simulator: Ronald M. Sampaio(ronald.maymone@pixforce.ai)
 | License: BSD-3-Clause. Copyright (c) 2023, Marcelo Jacinto. All rights reserved.
 | Description: File that defines the base configurations for the Pegasus Simulator.
 """
@@ -10,11 +11,11 @@ from pathlib import Path
 import omni.isaac.nucleus as nucleus
 
 # Extension configuration
-EXTENSION_NAME = "Pegasus Simulator"
-WINDOW_TITLE = "Pegasus Simulator"
+EXTENSION_NAME = "PixFlight Simulator"
+WINDOW_TITLE = "Pix Flight Simulator"
 MENU_PATH = "Window/" + WINDOW_TITLE
 DOC_LINK = "https://docs.omniverse.nvidia.com"
-EXTENSION_OVERVIEW = "This extension shows how to incorporate drones into Isaac Sim"
+EXTENSION_OVERVIEW = "This extension shows how to incorporate Pix Flight drones into Omniverse Kit Application"
 
 # Get the current directory of where this extension is located
 EXTENSION_FOLDER_PATH = Path(os.path.dirname(os.path.realpath(__file__)))
